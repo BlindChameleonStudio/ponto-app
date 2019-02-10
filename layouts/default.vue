@@ -96,7 +96,7 @@ export default {
         },
         {
           icon: 'bubble_chart',
-          title: 'Kontakt',
+          title: 'Přispějte',
           to: '/give-me-your-money'
         }
       ],
