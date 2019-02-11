@@ -2,7 +2,7 @@
   <div class="video">
     <p>jméno</p>
     <input type="text" v-model="name">
-    <p>jméno</p>
+    <p>email</p>
     <input type="text" v-model="email">
     <button type="button" name="button" @click='alert'>Odeslat</button>
     <h1>{{ test }}</h1>
@@ -12,7 +12,7 @@
 <script>
   export default {
     name: 'videoComponent',
-    data () {
+      data () {
       return {
         name: null,
         email: null
@@ -28,5 +28,9 @@
 <style>
 h1 {
   color: red;
+}
+
+input {
+  border: 0.3px solid black;
 }
 </style>
