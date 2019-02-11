@@ -1,6 +1,6 @@
 <template>
 <div class="">
-  <h1>Kontakt</h1>
+  <h1>Napište nám</h1>
   <ContactForm />
 </div>
 </template>
